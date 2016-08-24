@@ -5,6 +5,8 @@
  */
 package ingenieria_software_tarea;
 
+import java.util.Scanner;
+
 /**
  *
  * @author jefferson
@@ -16,10 +18,13 @@ public class Ingenieria_Software_Tarea {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        for (int i = 0; i < 10; i++) {
-            System.out.println("HOLA MIJINES");
-            
-        }
+        System.out.println("SUMAR");
+        Scanner entrada=new Scanner(System.in);
+        System.out.println("INGRESE PRIMER VALOR");
+        int a=entrada.nextInt();
+        System.out.println("INGRESE SEGUNDO VALOR");
+        int b=entrada.nextInt();
     }
+  
     
 }
