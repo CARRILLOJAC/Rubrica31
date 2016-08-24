@@ -6,25 +6,36 @@
 package ingenieria_software_tarea;
 
 import java.util.Scanner;
+import ingenieria_software_tarea.Calculardora;
 
 /**
  *
  * @author jefferson
  */
-public class Ingenieria_Software_Tarea {
+public class Ingenieria_Software_Tarea extends Calculardora{
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+         Calculardora nueva = new Calculardora();
+         nueva.mostrarMensaje();
         System.out.println("SUMAR");
         Scanner entrada=new Scanner(System.in);
         System.out.println("INGRESE PRIMER VALOR");
         int a=entrada.nextInt();
+        
         System.out.println("INGRESE SEGUNDO VALOR");
         int b=entrada.nextInt();
+        
+       
+        nueva.suma(a,b);
+         
+        System.out.println("El resultado de la suma es "+nueva.suma(a, b));
     }
+    
+    
   
     
 }
