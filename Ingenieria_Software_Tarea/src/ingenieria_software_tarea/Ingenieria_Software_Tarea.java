@@ -23,7 +23,7 @@ public class Ingenieria_Software_Tarea extends Calculardora{
          nueva.mostrarMensaje();
         System.out.println("SUMAR");
         Scanner entrada=new Scanner(System.in);
-        System.out.println("INGRESE PRIMER VALOR");
+        System.out.println("INGRESE PRIMER VALOR ");
         int a=entrada.nextInt();
         
         System.out.println("INGRESE SEGUNDO VALOR");
@@ -32,7 +32,7 @@ public class Ingenieria_Software_Tarea extends Calculardora{
        
         nueva.suma(a,b);
          
-        System.out.println("El resultado de la suma es "+nueva.suma(a, b));
+        System.out.println("ESTIMADO USUARIO ESTE ES EL RESULTADO :  "+nueva.suma(a, b));
     }
     
     
