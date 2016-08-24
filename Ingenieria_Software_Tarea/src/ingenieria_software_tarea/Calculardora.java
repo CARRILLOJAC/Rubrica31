@@ -11,9 +11,15 @@ package ingenieria_software_tarea;
  */
 public class Calculardora {
     
-    public static int suma (int a, int b){
+    public int suma (int a, int b){
         int c=a+b;
         return c;
         
     }
+    
+    public void mostrarMensaje() 
+{ 
+    System.out.println("Bienvenido a sistema :D !"); 
+} 
+    
 }
